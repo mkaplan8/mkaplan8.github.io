@@ -34,7 +34,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    /*color: #eb3812;*/
+    color: #0000ff;
 }
 
 h1,
@@ -129,6 +130,7 @@ aside {
     color: #f05f40;
 }
 
+/*Controls color of active navbar components when scrolling*/
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
     color: #f05f40!important;
@@ -170,6 +172,7 @@ aside {
         background-color: #fff;
     }
 
+    /*Controls color of the name in the upper corner*/
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #f05f40;
@@ -196,8 +199,13 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-image: url(../img/IcelandBackground.jpg);
+    color: #ffffff;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    background-image: url(../img/IcelandBackground3.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -403,10 +411,11 @@ fieldset[disabled] .btn-default.active {
     background-color: #222;
 }
 
+/*controls stuff for landing page button*/
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #ffa07a;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
