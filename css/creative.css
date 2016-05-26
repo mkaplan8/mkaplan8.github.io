@@ -16,12 +16,12 @@ body {
 
 hr {
     max-width: 50px;
-    border-color: #f05f40;
+    border-color: #A0204F;
     border-width: 3px;
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #A0204F;
 }
 
 a {
@@ -72,7 +72,7 @@ p {
 /*End Max's CSS*/
 
 .bg-primary {
-    background-color: #f05f40;
+    background-color: #E3C567;
 }
 
 .bg-dark {
@@ -80,8 +80,9 @@ p {
     background-color: #222;
 }
 
+/*Text in about section*/
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: #ffffff;
 }
 
 section {
@@ -133,7 +134,7 @@ aside {
 /*Controls color of active navbar components when scrolling*/
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #A0204F!important;
     background-color: transparent;
 }
 
@@ -175,7 +176,7 @@ aside {
     /*Controls color of the name in the upper corner*/
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #f05f40;
+        color: #A0204F;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -415,7 +416,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #ffa07a;
+    background-color: #E3C567;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
