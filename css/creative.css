@@ -45,12 +45,14 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #ffffff;
 }
 
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
+    color: #ffffff;
 }
 
 /*Max's CSS*/
@@ -59,14 +61,27 @@ p {
 }
 
 .connect {
-    color:#ff3399;
-    width: 42px;
-    height: 36px;
+    /*color:#A0204F;*/
+    color: #E3C567;
+    /*padding-left: 115px;*/
 }
 
 .connect:hover,
 .coonect:focus {
-    color: #0000ff;
+    /*color: #E3C567;*/
+    color:#A0204F;
+}
+
+#experience {
+    background-color: #BAB18A;
+}
+
+#leisure {
+    background-color: #E3C567;
+}
+
+#connect {
+    background-color: #656E8A;
 }
 
 /*End Max's CSS*/
@@ -78,6 +93,14 @@ p {
 .bg-dark {
     color: #fff;
     background-color: #222;
+}
+
+#skills {
+    background-color: #656E8A;
+}
+
+.text-muted {
+    color: #ffffff;
 }
 
 /*Text in about section*/
@@ -269,6 +292,7 @@ header .header-content .header-content-inner p {
 
 .section-heading {
     margin-top: 0;
+    /*color: #ffffff;*/
 }
 
 .service-box {
