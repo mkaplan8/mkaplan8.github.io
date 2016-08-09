@@ -60,15 +60,19 @@ p {
     color: #000000;
 }
 
-.connect {
+.connectIcon {
     /*color:#A0204F;*/
     color: #E3C567;
     /*padding-left: 115px;*/
 }
 
-.connect:hover,
-.coonect:focus {
+.connectIcon:hover,
+.connectIcon:focus {
     /*color: #E3C567;*/
+    color:#A0204F;
+}
+
+.leisureIcon {
     color:#A0204F;
 }
 
@@ -374,6 +378,7 @@ header .header-content .header-content-inner p {
     margin: 0 auto 20px;
 }
 
+/*Changes icon color*/
 .text-primary {
     color: #f05f40;
 }
